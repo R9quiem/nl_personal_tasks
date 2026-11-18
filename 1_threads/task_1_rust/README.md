@@ -12,3 +12,7 @@ cargo run --release -- "input.bin" 4
 ```
 
 Первый аргумент — путь к бинарному файлу, второй — положительное число потоков. Если число потоков не указано, оно определяется автоматически.
+
+## Видео с объяснением
+
+[Посмотреть видео](https://drive.google.com/file/d/1pIn1R_0varldKyszqyapTLsiERPtz8ex/view?usp=sharing)
