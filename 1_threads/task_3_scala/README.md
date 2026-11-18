@@ -12,3 +12,7 @@ scala-cli run Main.scala --server=false --jvm system -- examples/sample.txt 2
 ```
 
 Первый аргумент — путь к текстовому файлу с целыми числами, разделёнными пробельными символами. Второй — положительное число потоков. Если число потоков не указано, оно определяется автоматически.
+
+## Видео с объяснением
+
+[Посмотреть видео](https://drive.google.com/file/d/17bpQ6dj-Ncmr8qhW7fG7IqfszlViFil-/view?usp=sharing)
