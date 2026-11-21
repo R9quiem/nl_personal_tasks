@@ -23,7 +23,7 @@ try {
             def parts = command.split('\\s+')
             synchronized (resources) {
                 if (parts.length == 1 && parts[0] == 'LIST') {
-                    return 'OK ' + resources.collect { key, owner -> "${key}=${owner ?: 'free'}" }.join(';')
+                    return 'OK ' + groovy.json.JsonOutput.toJson(resources)
                 }
                 if (parts.length != 3 || !(parts[0] in ['RENT', 'RETURN'])) return 'ERR invalid command'
                 String resource = parts[1], client = parts[2]
