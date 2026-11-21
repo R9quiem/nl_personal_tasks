@@ -4,7 +4,7 @@
 
 ## Запуск
 
-Требуются Docker Desktop и Linux-компилятор Swift 5.10.1 для Ubuntu 22.04, распакованный на этом компьютере в `E:\prog\npl-labs-tools\swift-5.10.1`.
+Требуется Docker Desktop с Linux-контейнерами.
 
 Из корня репозитория в PowerShell:
 
@@ -12,8 +12,7 @@
 cd 5_convert/task_1_swift
 New-Item -ItemType Directory -Force build | Out-Null
 docker build -t npl-dot .
-$swift = 'E:\prog\npl-labs-tools\swift-5.10.1\swift-5.10.1-RELEASE-ubuntu22.04'
-docker run --rm --mount "type=bind,source=$swift,target=/toolchain,readonly" --mount "type=bind,source=$($PWD.Path),target=/data" npl-dot /data/examples/graph.json /data/build/graph.dot
+docker run --rm --mount "type=bind,source=$($PWD.Path),target=/data" npl-dot /data/examples/graph.json /data/build/graph.dot
 Get-Content -Encoding utf8 build/graph.dot
 ```
 
