@@ -8,12 +8,13 @@ run(["server", PortText]) ->
     Port = port(PortText),
     register(booking_store, spawn_link(fun() -> store(1, #{}) end)),
     {ok, Listener} = gen_tcp:listen(Port, [binary, {packet, line}, {active, false},
-                                        {reuseaddr, true}, {packet_size, 65536}]),
+                                        {reuseaddr, true}, {packet_size, 65536}, {buffer, 65536}]),
     io:format("Listening on ~B~n", [Port]),
     accept(Listener);
 run(["client", PortText, Command]) ->
     {ok, Socket} = gen_tcp:connect("127.0.0.1", port(PortText),
-                                 [binary, {packet, line}, {active, false}], 5000),
+                                 [binary, {packet, line}, {active, false},
+                                  {packet_size, 16777216}, {buffer, 16777216}], 5000),
     try
         ok = gen_tcp:send(Socket, [Command, "\n"]),
         {ok, Reply} = gen_tcp:recv(Socket, 0, 5000),
