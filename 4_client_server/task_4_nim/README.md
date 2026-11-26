@@ -20,3 +20,7 @@ docker exec npl-semver ./semver client 5004 "COMPARE 1.2.3+one 1.2.3+two"
 ```
 
 Ответы `OLDER`, `NEWER`, `EQUAL` относятся к первой версии относительно второй. Примеры возвращают `OLDER` и `EQUAL`. Сервер останавливается через Ctrl+C.
+
+## Видео с объяснением
+
+[Посмотреть видео](https://drive.google.com/file/d/1AS0zDFI7C2Jl3k31nUEwtp4DOAgoJrjh/view?usp=sharing)
