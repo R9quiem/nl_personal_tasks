@@ -13,3 +13,7 @@ julia main.jl examples/different.txt
 ```
 
 Аргумент — путь к файлу с двумя деревьями. Пустое дерево обозначается точкой `.`, узел — `(левое,правое)`. Лист записывается как `(.,.)`. Пробельные символы игнорируются. Примеры выводят `Isomorphic` и `Not isomorphic` соответственно.
+
+## Видео с объяснением
+
+[Посмотреть видео](https://drive.google.com/file/d/1ZiK17aZ0wvHzgB3aM5UFrxTJAR6Nm34C/view?usp=sharing)
