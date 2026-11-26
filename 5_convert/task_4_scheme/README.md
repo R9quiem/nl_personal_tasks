@@ -15,3 +15,7 @@ Get-Content -Encoding utf8 build/people.csv
 ```
 
 Аргументы — входной SQL и выходной CSV в UTF-8. Имена столбцов указываются явно. NULL записывается пустым полем, строки заключаются в двойные кавычки. Первая строка CSV содержит имена столбцов первого оператора.
+
+## Видео с объяснением
+
+[Посмотреть видео](https://drive.google.com/file/d/1UrduDhlQrQvQOYJLFJNsMlPIDCmXUfoK/view?usp=sharing)
