@@ -15,3 +15,7 @@ Get-Content -Encoding utf8 build/access.csv
 ```
 
 Аргументы — входной журнал и выходной CSV. Файлы читаются и записываются в UTF-8. В примере преобразуются две строки, одна пропускается.
+
+## Видео с объяснением
+
+[Посмотреть видео](https://drive.google.com/file/d/1gLSOqfBZa-9afLTkfUD2YCfGdE7dhnbl/view?usp=sharing)
