@@ -21,3 +21,7 @@ docker exec npl-booking escript main.escript client 5001 "CANCEL 1"
 ```
 
 Границы интервала — целые неотрицательные отметки времени, начало меньше конца. В `LIST` каждая бронь представлена как `id:начало:конец`. Имена ресурсов задаются без пробелов. Сервер останавливается через Ctrl+C.
+
+## Видео с объяснением
+
+[Посмотреть видео](https://drive.google.com/file/d/1E2O9IrM-3unmSsp_UckNYUnDzQladqWI/view?usp=sharing)
