@@ -12,3 +12,7 @@ swipl -q -s main.pl -- examples/sample.txt
 ```
 
 Аргумент — путь к файлу со списком направленных рёбер вида `[(a,b),(b,c)].`. Вершины задаются атомами Prolog или целыми числами. Точка в конце обязательна. Для примера выводится `[a,b,a,b,c]`.
+
+## Видео с объяснением
+
+[Посмотреть видео](https://drive.google.com/file/d/1ILICd98SiDTlWVbGHC5Sd798CPDZl9l-/view?usp=sharing)
