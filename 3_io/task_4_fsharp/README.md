@@ -14,3 +14,7 @@ Get-Content -Encoding utf8 build/index.txt
 ```
 
 Аргументы — входной и выходной текстовые файлы в UTF-8. Слова состоят из букв Unicode и комбинируемых знаков. Цифры и пунктуация разделяют слова. Результат записывается в виде `слово: 1, 3`.
+
+## Видео с объяснением
+
+[Посмотреть видео](https://drive.google.com/file/d/1J_EU0KUd4L7BEZF17HuLt9ObwPfECuHv/view?usp=sharing)
