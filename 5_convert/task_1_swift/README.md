@@ -17,3 +17,7 @@ Get-Content -Encoding utf8 build/graph.dot
 ```
 
 Аргументы — входной JSON и выходной DOT. Массив `nodes` содержит объекты с полями `id`, `label`, массив `edges` — объекты с полями `from`, `to`. Все поля — строки.
+
+## Видео с объяснением
+
+[Посмотреть видео](https://drive.google.com/file/d/11HrEIaXyBqQc8KF8Z4-Ql5gdO_RnZe_P/view?usp=sharing)
