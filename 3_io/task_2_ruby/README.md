@@ -13,3 +13,7 @@ ruby main.rb examples/first.txt examples/first.txt
 ```
 
 Аргументы — пути к двум файлам любого типа. Первый пример находит отличие на позиции `2`, второй сообщает об идентичности. Код завершения — `0` при совпадении, `1` при различии и `2` при ошибке.
+
+## Видео с объяснением
+
+[Посмотреть видео](https://drive.google.com/file/d/1QwiybcBqFDuJVWCwNJi-LxNIE3n62P-v/view?usp=sharing)
