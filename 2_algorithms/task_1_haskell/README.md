@@ -21,3 +21,7 @@ ghc -O2 -outputdir build Main.hs -o build/partitions.exe
 docker build -t npl-partitions .
 docker run --rm npl-partitions 4
 ```
+
+## Видео с объяснением
+
+[Посмотреть видео](https://drive.google.com/file/d/1f8pAYuFHG0IwMxlY6EIeuuYVsLflC7jS/view?usp=sharing)
