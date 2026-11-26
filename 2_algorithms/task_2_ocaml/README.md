@@ -28,3 +28,7 @@ docker run --rm npl-bridges examples/sample.txt
 ```powershell
 docker run --rm --mount "type=bind,source=$($PWD.Path),target=/data,readonly" npl-bridges /data/input.txt
 ```
+
+## Видео с объяснением
+
+[Посмотреть видео](https://drive.google.com/file/d/1p6elJjuCVTSvXcYRzfuSkVgqV5HL2vD1/view?usp=sharing)
