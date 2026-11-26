@@ -1,0 +1,7 @@
+{
+  "nodes": [
+    {"id": "start", "label": "Начало"},
+    {"id": "finish", "label": "Результат \"готов\""}
+  ],
+  "edges": [{"from": "start", "to": "finish"}]
+}
